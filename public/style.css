@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#container{
+  
+    background-color: antiquewhite;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGIN STYLING AREA  START*/
+/* Reset default margins, padding, and box model */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the container */
+#container{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image-gallary img {
+    display: block;
+    width: 20%;
+}

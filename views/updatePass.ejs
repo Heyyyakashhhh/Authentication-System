@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#container{
+  
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.loginForm form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  gap: 20px;
+align-items: center;
+    justify-content: center;
+   
+}
+ 
+.loginForm form  input{
+    padding: 5px 15px;
+    outline-color: red;
+   
+    outline-style:hidden;
+}
+.loginForm form button{
+    width: 80px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.loginForm form button:hover{
+    background-color: rgb(144, 14, 14);
+}
+
+
+</style>
+<body>
+    
+ <div id="container">
+
+    <div class="loginForm">
+        <form method="post">
+      
+            <h1>Update password here</h1>
+            <div>
+                <label for="email">Enter Your Email</label><br>
+                <input type="email" name="email" id="email" placeholder="examle@gmail.com">
+
+            </div>
+
+            <div>
+               
+                <label for="password">Enter Your Old password</label><br>
+                <input type="password" name="password" id="password" ><br>
+                <label for="password">Enter Your New password</label><br>
+                <input type="password" name="Newpassword" id="password" >
+              
+            </div>
+           
+
+          
+          
+          
+            <button type="submit">Login Now</button>
+        
+        
+           </form>
+    </div>
+  
+ </div>
+    
+</body>
+</html>
